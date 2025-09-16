@@ -12,6 +12,5 @@ output "instance_subnet" {
 }
 
 output "instance_ami" {
-　 description = "AMI used to create the EC2 instance."
-   value       = aws_instance.app_server.ami
+  value = aws_instance.app_server.ami
 }
